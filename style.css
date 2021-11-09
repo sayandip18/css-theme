@@ -21,8 +21,8 @@ a {
 .navbar {
     height: 70px;
     width: 100%;
-    background: black;
-    color: white;
+    background: var(--bg-nav);
+    color: var(--text);
 }
 
 .navbar-nav{
@@ -34,7 +34,7 @@ a {
 
 header {
     padding: 1em;
-    background: red;
+    background: var(--bg-nav);
     margin-bottom: 1em;
     padding-bottom: 3.5em;
     text-align: center;
@@ -46,8 +46,8 @@ header {
     width: 500px;
     opacity: 0;
     z-index: 2;
-    background: blue;
-    border-top: 2px solid white;
+    background: var(--bg-background);
+    border-top: 2px solid var(--border-color);
 
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
