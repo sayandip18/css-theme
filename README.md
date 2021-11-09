@@ -1,1 +1,1 @@
-# css-theme
+# Dynamic CSS theme toggler
